@@ -5,3 +5,4 @@ const greet = (name: string): string => {
 
 console.log(greet('{{ cookiecutter.username }}'))
 
+export { greet }
